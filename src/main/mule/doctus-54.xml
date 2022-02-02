@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="doctus-54Flow" doc:id="1044c55e-36b0-4c97-948a-193c083abd0f" >
 		<http:listener doc:name="Listener" doc:id="721a890b-79bc-41ff-982d-ec3916dab388" config-ref="HTTP_Listener_config" path="/test"/>
-		<set-payload value='"Test success"' doc:name="Set Payload" doc:id="56b88f6d-6f10-4d80-85d2-d71b277757fe" />
+		<set-payload value='"Test success after gitssetup"' doc:name="Set Payload" doc:id="56b88f6d-6f10-4d80-85d2-d71b277757fe" />
 	</flow>
 </mule>
